@@ -2,6 +2,4 @@
 
 set -ex
 
-curl -fsSL https://moonrepo.dev/install/moon.sh | bash
-
-echo 'export PATH="$HOME/.moon/bin:$PATH"' >> "$HOME/.bashrc"
+curl -fsSL https://moonrepo.dev/install/moon.sh | MOON_INSTALL_DIR=/usr/local/bin bash
