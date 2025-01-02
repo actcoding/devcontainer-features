@@ -9,3 +9,4 @@ git clone -b "${VERSION}" -- https://github.com/phpactor/phpactor "${PHPACTOR_IN
 cd "${PHPACTOR_INSTALL_DIR}"
 
 composer install --no-dev
+chmod -R 755 vendor
