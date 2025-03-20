@@ -4,7 +4,9 @@ set -ex
 
 PHPACTOR_INSTALL_DIR="/opt/phpactor"
 
-git clone -b "${VERSION}" -- https://github.com/phpactor/phpactor "${PHPACTOR_INSTALL_DIR}"
+if [ ! -d "${PHPACTOR_INSTALL_DIR}" ]; then
+    git clone -b "${VERSION}" -- https://github.com/phpactor/phpactor "${PHPACTOR_INSTALL_DIR}"
+fi
 
 cd "${PHPACTOR_INSTALL_DIR}"
 
