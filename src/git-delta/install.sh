@@ -29,5 +29,5 @@ DELTA_DOWNLOAD_URL="https://github.com/dandavison/delta/releases/download/${DELT
 DELTA_PACKAGE_FILE="git-delta.deb"
 
 curl -fsSL "${DELTA_DOWNLOAD_URL}" -o "${DELTA_PACKAGE_FILE}"
-# sudo dpkg -i "${DELTA_PACKAGE_FILE}"
+sudo dpkg -i "${DELTA_PACKAGE_FILE}"
 rm "${DELTA_PACKAGE_FILE}"

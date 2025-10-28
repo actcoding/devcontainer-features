@@ -1,7 +1,7 @@
 {
     "name": "git-delta",
     "id": "git-delta",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Install git-delta, a syntax-highlighting pager for git, diff, grep, and blame output",
     "options": {
         "version": {
