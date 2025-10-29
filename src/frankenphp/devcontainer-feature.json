@@ -1,0 +1,13 @@
+{
+    "name": "frankenphp",
+    "id": "frankenphp",
+    "version": "1.0.0",
+    "description": "Install frankenphp, the Modern PHP App Server, written in Go",
+    "options": {
+        "version": {
+            "type": "string",
+            "description": "The frankenphp version to install",
+            "default": ""
+        }
+    }
+}
